@@ -528,12 +528,7 @@ html {
     position: absolute;
     right: 58px;
   } */
-  .top-to-bottom a {
-    width: 40px;
-    height: 40px;
-    bottom: -6px;
-    right: 53px;
-}
+
 .mainbariheading{
 font-size: 30px !important;
 }
