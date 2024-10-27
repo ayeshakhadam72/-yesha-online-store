@@ -366,8 +366,12 @@ html {
   border: 1px solid white;
   margin-bottom: 33px;
 }
+.bgheadermob{
+  display: none;
+}
 
 /* .......................media querry.................. */
+
 /* section 2 banner 1 */
 @media only screen and (max-width: 1300px) and (min-width: 849px) {
   .bannercontent h2 {
@@ -414,10 +418,13 @@ html {
   }
 
   /* sections 1 banner k nichy */
-
+  .bgheadermob{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 848px) and (min-width: 320px) {
+ 
   /* .categoriesimageparent {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -440,22 +447,28 @@ html {
   }
 
   /* ..........................header........................ */
-  .nav {
+  /* .nav {
     display: none;
   }
 
   .btn3 button {
     display: none;
   }
-
-  #buttons {
+  .logo{
     display: none;
   }
 
+  #buttons {
+    display: none;
+  } */
+  .headersticky {
+    display: none
+    
+}
   #mainheader {
     width: 100%;
     background-color: rgb(228, 231, 231);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
   }
@@ -493,7 +506,6 @@ html {
   }
 
   .cardsection h2 {
-    display: flex;
     font-size: 20px;
   }
 
@@ -501,21 +513,76 @@ html {
     padding: 40px 25px;
   }
 
-  .cardcontent h2 {
+  /* .cardcontent h2 {
     font-size: 15px;
     width: 91%
-  }
+  } */
+  .cardsection h2 {
+   
+    font-size: 20px;
+}
 
-  .cardcontent h2 .fa {
+  /* .cardcontent h2 .fa {
     padding-left: 20px;
-    /* float: right; */
+    float: right;
     position: absolute;
     right: 58px;
-  }
+  } */
   .top-to-bottom a {
     width: 40px;
     height: 40px;
     bottom: -6px;
     right: 53px;
 }
+.mainbariheading{
+font-size: 30px !important;
+}
+
+.bgheadermob{
+  width: 100%;
+  background-color: rgb(228, 231, 231);
+  
+}
+.disheadermob{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.logomob{
+width: 50%;
+}
+.logomob img{
+width: 150px;
+}
+.navcenter{
+  width: 50%;
+  text-align: end;
+}
+.navcenter .fa{
+  font-size: 25px;
+}
+.menubox{
+  width: 100%;
+  position: absolute;
+  padding:20px 0px ;
+  background-color:  rgb(228, 231, 231);
+  left: 0;
+  margin-top: 30px;
+  display: none;
+}
+.bgheadermob{
+  display: block;
+}
+.menuitem{
+  padding: 20px 20px;
+  text-align: left;
+}
+#navicon:hover .menubox{
+  display: block;
+  
+}
+/* #navicon:active .menubox{
+  display: block;
+} */
 }
