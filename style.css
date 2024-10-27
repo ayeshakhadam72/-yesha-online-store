@@ -445,22 +445,6 @@ html {
   .categoriessection {
     padding: 80px 40px;
   }
-
-  /* ..........................header........................ */
-  /* .nav {
-    display: none;
-  }
-
-  .btn3 button {
-    display: none;
-  }
-  .logo{
-    display: none;
-  }
-
-  #buttons {
-    display: none;
-  } */
   .headersticky {
     display: none
     
@@ -512,23 +496,10 @@ html {
   .cardsection {
     padding: 40px 25px;
   }
-
-  /* .cardcontent h2 {
-    font-size: 15px;
-    width: 91%
-  } */
   .cardsection h2 {
    
     font-size: 20px;
 }
-
-  /* .cardcontent h2 .fa {
-    padding-left: 20px;
-    float: right;
-    position: absolute;
-    right: 58px;
-  } */
-
 .mainbariheading{
 font-size: 30px !important;
 }
@@ -577,7 +548,10 @@ width: 150px;
   display: block;
   
 }
-/* #navicon:active .menubox{
-  display: block;
-} */
+.accessoriesparent h2, .easterncontent h2, .westerncontent h2{
+  font-size: 25px;
+}
+.westerncontent{
+  margin-bottom: 20px;
+}
 }
