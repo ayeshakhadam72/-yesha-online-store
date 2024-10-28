@@ -554,4 +554,134 @@ width: 150px;
 .westerncontent{
   margin-bottom: 20px;
 }
+.easterncontent{
+  margin-bottom: 20px;
+
 }
+}
+/* /.............................about css  page................................................................ */
+.bannerabout{
+  width: 100%;
+}
+
+.bgbanner{
+  background-image: url(images/Untitled\ design\ \(16\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 731px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.banneraboutcontent{
+  font-size: 70px;
+  padding-left: 20px;
+  color: white;
+}
+.whychoose{
+  width: 100%;
+  /* background-color: red; */
+  padding: 40px 0px;
+}
+.paddingleft{
+  margin: 40px 30px;
+  /* background-color: antiquewhite; */
+}
+.paddingleft h2{
+  font-size: 60px;
+}
+.paddingleft p{
+  font-size: 20px;
+}
+/* Linear-gradient(rgba(207, 214, 207, 0.9),rgba(175, 180, 82, 0.7),rgba(23, 24, 23, 0.9)),url(images/Untitled\ design\ \(16\).png); */
+
+
+/* why choose do box ko display flex */
+
+.whychooseflex{
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.whychooseparentbox1{
+width: 50%;
+/* background-color: gray; */
+margin-top: 30px;
+}
+/* 1box  */
+.whychooseparentbox1flex{
+  width: 100%;
+display: flex;
+justify-content: space-around;
+}
+.childbox1{
+  width: 50%;
+}
+.childbox1 h1{
+font-size: 30px;
+}
+.childbox1 h3{
+font-size: 30px;
+padding-top: 20px;
+}
+.childbox1 p{
+font-size: 20px;
+}
+.childbox2{
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.childbox2 h1{
+  font-size: 30px;
+  }
+  .childbox2 h3{
+  font-size: 30px;
+  padding-top: 20px;
+  }
+  .childbox2 p{
+  font-size: 20px;
+  }
+  .box34{
+margin-top: 80px;
+  }
+
+/* 2nd box images */
+.whychooseparentbox2{
+width: 50%;
+
+margin-top: 30px;
+}
+.aboutimages{
+  /* margin-left: 60px; */
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.aboutimg1{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.specificimg1{
+  height: 253px;
+  object-fit: cover;
+  width: 402px;
+}
+.aboutimgsection{
+  width: 100%;
+  display: flex;
+}
+.blockbox1{
+width: 50%;
+
+}
+.blockbox2{
+  width: 50%;
+  }
+  .aboutbox1{
+    width: 402px;
+  }
