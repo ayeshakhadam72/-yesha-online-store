@@ -179,10 +179,11 @@
   justify-content: space-around;
   padding-top: 80px;
 }
+
 .categoriesimageparent img {
   transition-duration: 1s;
   width: 100%;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .western,
@@ -366,7 +367,8 @@ html {
   border: 1px solid white;
   margin-bottom: 33px;
 }
-.bgheadermob{
+
+.bgheadermob {
   display: none;
 }
 
@@ -418,13 +420,13 @@ html {
   }
 
   /* sections 1 banner k nichy */
-  .bgheadermob{
+  .bgheadermob {
     display: none;
   }
 }
 
 @media only screen and (max-width: 848px) and (min-width: 320px) {
- 
+
   /* .categoriesimageparent {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -445,10 +447,11 @@ html {
   .categoriessection {
     padding: 80px 40px;
   }
+
   .headersticky {
     display: none
-    
-}
+  }
+
   #mainheader {
     width: 100%;
     background-color: rgb(228, 231, 231);
@@ -496,75 +499,92 @@ html {
   .cardsection {
     padding: 40px 25px;
   }
+
   .cardsection h2 {
-   
+
     font-size: 20px;
-}
-.mainbariheading{
-font-size: 30px !important;
+  }
+
+  .mainbariheading {
+    font-size: 30px !important;
+  }
+
+  .bgheadermob {
+    width: 100%;
+    background-color: rgb(228, 231, 231);
+
+  }
+
+  .disheadermob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+  }
+
+  .logomob {
+    width: 50%;
+  }
+
+  .logomob img {
+    width: 150px;
+  }
+
+  .navcenter {
+    width: 50%;
+    text-align: end;
+  }
+
+  .navcenter .fa {
+    font-size: 25px;
+  }
+
+  .menubox {
+    width: 100%;
+    position: absolute;
+    padding: 20px 0px;
+    background-color: rgb(228, 231, 231);
+    left: 0;
+    margin-top: 30px;
+    display: none;
+  }
+
+  .bgheadermob {
+    display: block;
+  }
+
+  .menuitem {
+    padding: 20px 20px;
+    text-align: left;
+  }
+
+  #navicon:hover .menubox {
+    display: block;
+
+  }
+
+  .accessoriesparent h2,
+  .easterncontent h2,
+  .westerncontent h2 {
+    font-size: 25px;
+  }
+
+  .westerncontent {
+    margin-bottom: 20px;
+  }
+
+  .easterncontent {
+    margin-bottom: 20px;
+
+  }
 }
 
-.bgheadermob{
-  width: 100%;
-  background-color: rgb(228, 231, 231);
-  
-}
-.disheadermob{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 20px;
-}
-.logomob{
-width: 50%;
-}
-.logomob img{
-width: 150px;
-}
-.navcenter{
-  width: 50%;
-  text-align: end;
-}
-.navcenter .fa{
-  font-size: 25px;
-}
-.menubox{
-  width: 100%;
-  position: absolute;
-  padding:20px 0px ;
-  background-color:  rgb(228, 231, 231);
-  left: 0;
-  margin-top: 30px;
-  display: none;
-}
-.bgheadermob{
-  display: block;
-}
-.menuitem{
-  padding: 20px 20px;
-  text-align: left;
-}
-#navicon:hover .menubox{
-  display: block;
-  
-}
-.accessoriesparent h2, .easterncontent h2, .westerncontent h2{
-  font-size: 25px;
-}
-.westerncontent{
-  margin-bottom: 20px;
-}
-.easterncontent{
-  margin-bottom: 20px;
-
-}
-}
 /* /.............................about css  page................................................................ */
-.bannerabout{
+.bannerabout {
   width: 100%;
 }
 
-.bgbanner{
+.bgbanner {
   background-image: url(images/Untitled\ design\ \(16\).png);
   background-position: center;
   background-repeat: no-repeat;
@@ -575,116 +595,400 @@ width: 150px;
   justify-content: left;
   align-items: center;
 }
-.banneraboutcontent{
+
+.banneraboutcontent {
   font-size: 70px;
   padding-left: 20px;
   color: white;
 }
-.whychoose{
+
+.whychoose {
   width: 100%;
-  /* background-color: red; */
+  background-color: rgb(225, 222, 222);
   padding: 40px 0px;
 }
-.paddingleft{
-  margin: 40px 30px;
-  /* background-color: antiquewhite; */
+
+.paddingleft {
+  margin: 40px 50px;
+  background-color: white;
 }
-.paddingleft h2{
+
+.aboutush2pleft {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.aboutush2pleft h2 {
   font-size: 60px;
 }
-.paddingleft p{
-  font-size: 20px;
+
+.aboutush2pleft p {
+  padding-top: 10px;
+  font-size: 26px;
+  color: gray;
 }
+
 /* Linear-gradient(rgba(207, 214, 207, 0.9),rgba(175, 180, 82, 0.7),rgba(23, 24, 23, 0.9)),url(images/Untitled\ design\ \(16\).png); */
 
 
 /* why choose do box ko display flex */
 
-.whychooseflex{
-width: 100%;
-display: flex;
-justify-content: space-between;
+.whychooseflex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 
 }
-.whychooseparentbox1{
-width: 50%;
-/* background-color: gray; */
-margin-top: 30px;
+
+.whychooseparentbox1 {
+  width: 50%;
+
 }
+
 /* 1box  */
-.whychooseparentbox1flex{
-  width: 100%;
-display: flex;
-justify-content: space-around;
+.whychooseparentbox1flex {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-around;
 }
-.childbox1{
+
+.childbox1 {
   width: 50%;
 }
-.childbox1 h1{
-font-size: 30px;
+
+.childbox1 h1 {
+  font-size: 60px;
+  font-weight: 700;
 }
-.childbox1 h3{
-font-size: 30px;
-padding-top: 20px;
+
+.childbox1 h3 {
+  font-size: 40px;
+  padding: 20px 0px;
+
+
 }
-.childbox1 p{
-font-size: 20px;
+
+.childbox1 p {
+  font-size: 25px;
+  color: gray;
 }
-.childbox2{
+
+/* child 2 content  */
+.childbox2 {
   width: 50%;
-  margin-left: 20px;
-  margin-top: 20px;
+  padding-left: 80px;
 }
-.childbox2 h1{
-  font-size: 30px;
-  }
-  .childbox2 h3{
-  font-size: 30px;
-  padding-top: 20px;
-  }
-  .childbox2 p{
-  font-size: 20px;
-  }
-  .box34{
-margin-top: 80px;
-  }
+
+.childbox2 h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.childbox2 h3 {
+  font-size: 40px;
+  padding: 20px 0px;
+}
+
+.childbox2 p {
+  font-size: 25px;
+  color: gray;
+}
+
+.box34 {
+  margin-top: 80px;
+}
 
 /* 2nd box images */
-.whychooseparentbox2{
-width: 50%;
-
-margin-top: 30px;
+.whychooseparentbox2 {
+  width: 50%;
 }
-.aboutimages{
+
+.aboutimages {
   /* margin-left: 60px; */
   width: 100%;
   text-align: center;
   margin: auto;
 }
-.aboutimg1{
+
+.aboutimg1 {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
 }
-.aboutimgsection{
+
+.aboutimgsection {
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-.specificimg1{
+
+.specificimg1 {
   width: 100%;
   height: 300px;
 }
-.aboutimg1{
+
+.aboutimg1 {
   width: 100%;
   border-radius: 20px;
 }
-.blockbox1{
+
+.blockbox1 {
   padding: 0px 10px;
   margin-top: 80px;
 }
-.blockbox2{
-  padding: 0px 10px;
 
+.blockbox2 {
+  padding: 0px 10px;
+}
+
+/*  .......................textcard section 5................... */
+.textcard {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(12, 6, 6, 0.9),rgba(12, 6, 6, 0.9),rgba(12, 6, 6, 0.9),rgba(22, 6, 23, 0.9));
+}
+
+.centerthreetextcard {
+  padding: 80px 0px;
+  color: white;
+}
+
+.centerthreetextcard h2 {
+  font-size: 50px;
+}
+
+.centerthreetextcard p {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+/* 3card */
+.cards3cardscenter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.textcardthree {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textcardbox1 {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #0d0606;
+  color: white;
+  padding: 30px 30px;
+  margin: 0px 20px;
+}
+.textcardbox1{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.textcardbox1 .fa{
+  font-size: 30px;
+  color: blue;
+}
+
+.textcardbox1 h2 {
+  font-size: 35px;
+  padding-top: 20px;
+}
+.textcardbox1 p{
+  font-size: 25px;
+  padding-top: 20px;
+}
+/* .............................section bannnr................ */
+.bannersecondservices{
+  width: 100%;
+  /* padding: 80px 0px; */
+}
+.bgbannersecond{
+  background-image: url(images/free\ Delivery\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 901px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.........................section6.........................................................*/
+.section6{
+  width: 100%;
+}
+.sectionpadding{
+  padding: 140px 140px;
+}
+.sectionflex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+ 
+}
+
+.sectionbox1{
+  width: 50%;
+/* main box */
+padding-top: 70px;
+}
+
+.sectionheading h2{
+font-size: 50px;
+}
+.sectionheading p{
+font-size: 25px;
+padding: 30px 0px;
+}
+.mainboxflex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+
+}
+.sbox1content{
+/* smallbox1 */
+text-align: center;
+width: 50%;
+position: relative;
+}
+.sbox1content::after{
+  content: ' ';
+  height: 100px;
+  width: 2px;
+  position: absolute;
+ 
+  color: black;
+} 
+.sbox1content .fa{
+font-size: 50px;
+color:#ffb929;
+padding-top: 30px;
+}
+.sbox1content h2{
+font-size: 40px;
+padding: 30px 0px;
+}
+.sbox1content p{
+font-size: 25px;
+padding-bottom: 30px;
+}
+.sbox2content{
+  width: 50%;
+  text-align: center;
+  /* padding: 30px 30px; */
+/* smallbox1 */
+
+
+}
+.sbox2content .fa{
+  font-size: 50px;
+  color:#ffb929;
+padding-top: 30px;
+
+}
+.sbox2content h2{
+  font-size: 40px;
+  padding: 30px 0px;
+}
+.sbox2content p{
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+.lastparaindiv p{
+  padding-top:30px ;
+  font-size: 25px;
+  color: rgb(75, 72, 72);
+
+}
+/*..................section 2 img...........*/
+.imgboxcenter{
+  width: 50%;
+/* mainbox */
+text-align: center;
+}
+.imgboxcenter img{
+  width: 70%;
+  border-radius: 30px;
+}
+/* .........................section quote box///////////////// */
+.bgcolor{
+  background-color: black;
+padding: 80px 0px;
+}
+.quotebox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quoteboxcenter{
+  width: 70%;
+  background-color: #0d0606;
+  color: white;
+  border-radius: 10px;
+}
+.quoteboxcenter{
+  /* box-shadow:  rgba(149, 157, 165, 0.2) 0px 8px 24px ; */
+  box-shadow: -10px 10px 70px 0 #55e6a54d;;
+}
+.quotespcearound{
+  padding: 40px 40px;
+}
+.quotespcearound h2{
+  font-size: 40px;
+}
+.paddingtop{
+  padding-top: 30px;
+}
+.quoteboxflex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.empty{
+  width: 33%;
+}
+.quotepara{
+width: 33%;
+}
+/* .quotebtn{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.quotepara p{
+  font-size: 25px;
+
+}
+.quotebtn button{
+  padding: 15px 20px ;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 15px;
+}
+.endbtn{
+  width: 33%;
+  text-align: right;
 }
