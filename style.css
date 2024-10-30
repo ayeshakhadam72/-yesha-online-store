@@ -1327,6 +1327,7 @@ font-size: 20px;
   transition-duration: .5s;
   }
 .sbox2content:hover{
+  transform: rotateY(45deg);
 transition-duration: .5s;
   box-shadow: -10px 30px 70px 0 #ffb929;
 }
