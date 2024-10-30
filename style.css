@@ -601,10 +601,11 @@ html {
   padding-left: 20px;
   color: white;
 }
+
 /* why choose */
 .whychoose {
   width: 100%;
-  padding: 40px 0px;
+  padding: 10px 0px;
 }
 
 .paddingleft {
@@ -643,7 +644,7 @@ html {
 
 .whychooseparentbox1 {
   width: 50%;
- 
+
 }
 
 /* 1box  */
@@ -663,21 +664,25 @@ html {
   transition-duration: 1s;
 
 }
-.childbox1:hover{
+
+.childbox1:hover {
   background-color: rgb(250, 249, 229);
-  color: black; 
+  color: black;
   transition-duration: 1s;
 }
-.childbox1:hover h3{
+
+.childbox1:hover h3 {
   color: black;
   transition-duration: 1s;
 
 }
-.childbox1:hover p{
+
+.childbox1:hover p {
   color: black;
   transition-duration: 1s;
 
 }
+
 .childbox1 h1 {
   font-size: 30px;
   font-weight: 700;
@@ -693,11 +698,12 @@ html {
 
 .childbox1 p {
   font-size: 16px;
-  color:white;
+  color: white;
   line-height: 1.4;
 }
+
 .childbox1 :hover {
-color: black;
+  color: black;
 }
 
 /* child 2 content  */
@@ -706,25 +712,28 @@ color: black;
   margin-left: 20px;
   border-radius: 10px;
   padding: 20px 20px;
-  background-color:  rgb(250, 249, 229);
+  background-color: rgb(250, 249, 229);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition-duration: 1s;
 
 }
-.childbox2:hover p{
+
+.childbox2:hover p {
   transition-duration: 1s;
 
   color: white;
 
 }
-.childbox2:hover{
+
+.childbox2:hover {
   transition-duration: 1s;
 
   background-color: black;
   color: white;
 
 }
-.childbox2:hover h3{
+
+.childbox2:hover h3 {
   color: white;
 
 }
@@ -746,16 +755,20 @@ color: black;
   font-size: 16px;
   color: black;
 }
-.childbox2 p:hover{
+
+.childbox2 p:hover {
   color: white;
 }
-.childbox3{
+
+.childbox3 {
   margin-left: 0px;
   margin-right: 20px;
 }
-.childbox4{
+
+.childbox4 {
   /* margin-left:20px ; */
 }
+
 /* .box34 {
   margin-top: 0px;
 } */
@@ -809,7 +822,7 @@ color: black;
 .textcard {
   width: 100%;
   text-align: center;
-  background: linear-gradient(rgba(12, 6, 6, 0.9),rgba(12, 6, 6, 0.9),rgba(12, 6, 6, 0.9),rgba(69, 57, 18, 0.9));
+  background: linear-gradient(rgba(12, 6, 6, 0.9), rgba(12, 6, 6, 0.9), rgba(12, 6, 6, 0.9), rgba(69, 57, 18, 0.9));
 }
 
 .centerthreetextcard {
@@ -849,10 +862,12 @@ color: black;
   padding: 30px 30px;
   margin: 0px 20px;
 }
-.textcardbox1{
+
+.textcardbox1 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.textcardbox1 .fa{
+
+.textcardbox1 .fa {
   font-size: 30px;
   padding: 10px;
   background-color: black;
@@ -865,16 +880,19 @@ color: black;
   font-size: 35px;
   padding-top: 20px;
 }
-.textcardbox1 p{
+
+.textcardbox1 p {
   font-size: 20px;
   padding-top: 20px;
 }
+
 /* .............................section bannnr................ */
-.bannersecondservices{
+.bannersecondservices {
   width: 100%;
   /* padding: 80px 0px; */
 }
-.bgbannersecond{
+
+.bgbannersecond {
   margin-top: 80px;
   background-image: url(images/salesbanner.png);
   background-position: center;
@@ -887,7 +905,7 @@ color: black;
 
 
 
-.PURebgbannersecond{
+.PURebgbannersecond {
   background-image: url(images/pure.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -906,55 +924,61 @@ color: black;
 
 
 /*.........................section6.........................................................*/
-.section6{
+.section6 {
   width: 100%;
 }
-.sectionpadding{
+
+.sectionpadding {
   margin-top: 20px;
   padding: 140px 140px;
   background-color: white;
 }
-.sectionflex{
+
+.sectionflex {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
- background-color: white;
- border-radius: 30px
+  background-color: white;
+  border-radius: 30px
 }
 
-.sectionbox1{
+.sectionbox1 {
   width: 50%;
-/* main box */
-padding-top: 70px;
+  /* main box */
+  padding-top: 70px;
 }
 
-.sectionheading h2{
-font-size: 50px;
-font-weight: 700;
+.sectionheading h2 {
+  font-size: 50px;
+  font-weight: 700;
 }
-.sectionheading p{
-font-size: 20px;
-padding: 30px 0px;
+
+.sectionheading p {
+  font-size: 20px;
+  padding: 30px 0px;
 }
-.mainboxflex{
+
+.mainboxflex {
   width: 100%;
   display: flex;
   justify-content: space-between;
   /* border: 1px solid #ffb929; */
 
 }
-.sbox1content{
-/* smallbox1 */
-text-align: center;
-width: 50%;
-background-color: black;
-color: white;
-margin: 20px 10px;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-border-radius: 10px;
-/* position: relative; */
+
+.sbox1content {
+  /* smallbox1 */
+  text-align: center;
+  width: 50%;
+  background-color: black;
+  color: white;
+  margin: 20px 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  /* position: relative; */
 }
+
 /* .sbox1content::after{
   content: ' ';
   height: 100px;
@@ -963,7 +987,7 @@ border-radius: 10px;
  
   color: black;
 }  */
-.sbox1content .fa{
+.sbox1content .fa {
   font-size: 30px;
   padding: 10px;
   background-color: black;
@@ -971,16 +995,19 @@ border-radius: 10px;
   border-radius: 13px;
   border: 1px solid white;
 }
-.sbox1content h2{
-font-size: 30px;
-font-weight: 600;
-padding: 30px 0px;
+
+.sbox1content h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 30px 0px;
 }
-.sbox1content p{
-font-size: 20px;
-padding-bottom: 30px;
+
+.sbox1content p {
+  font-size: 20px;
+  padding-bottom: 30px;
 }
-.sbox2content{
+
+.sbox2content {
   width: 50%;
   text-align: center;
   background-color: black;
@@ -989,34 +1016,39 @@ padding-bottom: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 10px;
   /* padding: 30px 30px; */
-/* smallbox1 */
+  /* smallbox1 */
 
 
 }
-.sbox2content .fa{
+
+.sbox2content .fa {
   font-size: 30px;
-    padding: 10px;
-    background-color: black;
-    color: #ffb929;
-    border-radius: 13px;
-    border: 1px solid white;
+  padding: 10px;
+  background-color: black;
+  color: #ffb929;
+  border-radius: 13px;
+  border: 1px solid white;
 }
-.sbox2content h2{
+
+.sbox2content h2 {
   font-size: 24px;
   font-weight: 600;
   padding: 30px 0px;
 }
-.sbox2content p{
+
+.sbox2content p {
   font-size: 20px;
   padding-bottom: 30px;
 }
-.lastparaindiv p{
-  padding:30px 0px ;
+
+.lastparaindiv p {
+  padding: 30px 0px;
 
   font-size: 20px;
   color: rgb(75, 72, 72);
 
 }
+
 /* .bgcolorupdate1{
   background-color: antiquewhite;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -1029,56 +1061,63 @@ padding-bottom: 30px;
 
 } */
 /*..................section 2 img...........*/
-.imgboxcenter{
+.imgboxcenter {
   width: 50%;
-/* mainbox */
-text-align: center;
-margin: auto;
+  /* mainbox */
+  text-align: center;
+  margin: auto;
 }
 
 /* .........................section quote box///////////////// */
-.bgcolor{
+.bgcolor {
   background-color: black;
-padding: 50px 0px;
-margin-top: 100px;
+  padding: 50px 0px;
+  margin-top: 100px;
 }
-.quotebox{
+
+.quotebox {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.quoteboxcenter{
+
+.quoteboxcenter {
   width: 70%;
   background-color: #0d0606;
   color: white;
   border-radius: 20px;
 }
-.quoteboxcenter{
+
+.quoteboxcenter {
   /* box-shadow:  rgba(149, 157, 165, 0.2) 0px 8px 24px ; */
   box-shadow: -10px 10px 70px 0 yellow;
   margin-top: -150px;
 }
-.quotespcearound{
+
+.quotespcearound {
   display: flex;
   justify-content: space-between;
   padding: 40px 40px;
 }
-.quotepara h2{
+
+.quotepara h2 {
   font-size: 30px;
   font-weight: 600;
 }
-.quotepara p{
+
+.quotepara p {
   padding-top: 20px;
-font-size: 20px;
-}
-.quotepara{
-  width: 50%;
- 
+  font-size: 20px;
 }
 
-.quotebtn button{
-  padding: 15px 20px ;
+.quotepara {
+  width: 50%;
+
+}
+
+.quotebtn button {
+  padding: 15px 20px;
   font-size: 15px;
   font-weight: 300;
   background-color: white;
@@ -1088,246 +1127,379 @@ font-size: 20px;
 
 
 }
-.quotebtn button:hover{
+
+.quotebtn button:hover {
   transform: scale(1.1);
   transition-duration: .5s;
 
 }
-.endbtn{
+
+.endbtn {
   width: 50%;
 
   display: flex;
-  justify-content: end; 
+  justify-content: end;
   align-items: center;
 }
+
 /*....................................media querry of about us page.....................................*/
-@media only screen and (max-width: 1248px) and (min-width: 700px){
-  .whychooseflex{
-   flex-wrap: wrap;
+@media only screen and (max-width: 1248px) and (min-width: 700px) {
+  .whychooseflex {
+    flex-wrap: wrap;
   }
+
   .whychooseparentbox1 {
     width: 100%;
   }
+
   .whychooseparentbox2 {
     width: 100%;
-}
-/* section2 */
-.textcardthree {
-  flex-wrap: wrap;
-}
-.centerthreetextcard {
-  padding: 80px 30px;
-}
-.centerthreetextcard h2 {
-  font-size: 40px;
-}
-.textcardbox1{
-  margin: 0px  0px;
+  }
+
+  /* section2 */
+  .textcardthree {
+    flex-wrap: wrap;
+  }
+
+  .centerthreetextcard {
+    padding: 80px 30px;
+  }
+
+  .centerthreetextcard h2 {
+    font-size: 40px;
+  }
+
+  .textcardbox1 {
+    margin: 0px 0px;
     margin: 20px 0px;
-}
-/* section3 */
-.sectionpadding {
-  padding: 0px 0px;
-  padding: 20px 20px;
- }
- .sectionflex{
-  flex-wrap: wrap;
-  padding-left: 0px
- }
- .sectionbox1 {
-  width: 100%;
- }
- .sectionheading{
-  text-align: center;
+  }
 
- }
- .imgboxcenter{
-  width: 100%;
-  margin-bottom: 40px
- }
+  /* section3 */
+  .sectionpadding {
+    padding: 0px 0px;
+    padding: 20px 20px;
+  }
 
-.quoteboxcenter {
-  width: 90%;
+  .sectionflex {
+    flex-wrap: wrap;
+    padding-left: 0px
+  }
+
+  .sectionbox1 {
+    width: 100%;
+  }
+
+  .sectionheading {
+    text-align: center;
+
+  }
+
+  .imgboxcenter {
+    width: 100%;
+    margin-bottom: 40px
+  }
+
+  .quoteboxcenter {
+    width: 90%;
+  }
+
+  /* banner height */
+  .bgbanner {
+    height: 306px;
+  }
+
+  .paddingleft {
+    margin: 40px;
+  }
+
+  .bgbannersecond {
+    height: 230px;
+  }
+
+  .PURebgbannersecond {
+    height: 230px;
+
+  }
 }
-/* banner height */
-.bgbanner {
-  height: 306px;
-}
-.paddingleft{
-  margin: 40px;
-}
-.bgbannersecond{
-  height: 230px;
-}
-.PURebgbannersecond{
-  height: 230px;
-  
-}
-}
+
 /* ............................................second media query */
-@media only screen and (max-width: 700px) and (min-width: 320px){
+@media only screen and (max-width: 700px) and (min-width: 320px) {
   .quotepara h2 {
     font-size: 23px;
   }
+
   .quotepara p {
     font-size: 16px;
     line-height: 1.4;
 
   }
-  .bgbannersecond{
+
+  .bgbannersecond {
     height: 119px;
   }
-  .PURebgbannersecond{
-    height: 119px; 
+
+  .PURebgbannersecond {
+    height: 119px;
   }
+
   /* sectionbox1  ya 3step jo ha ya phly vali ha*/
-  .whychooseflex{
+  .whychooseflex {
     flex-wrap: wrap;
-   }
-   .whychooseparentbox1 {
-     width: 100%;
-   }
-   .whychooseparentbox2 {
-     width: 100%;
- }
+  }
+
+  .whychooseparentbox1 {
+    width: 100%;
+  }
+
+  .whychooseparentbox2 {
+    width: 100%;
+  }
 
 
- /* sec time media querry  */
- .aboutush2pleft{
-  padding-bottom: 50px;
-  padding-top: 0px;
- }
+  /* sec time media querry  */
+  .aboutush2pleft {
+    padding-bottom: 50px;
+    /* padding-top: 0px; */
+  }
+
   .whychooseparentbox1flex {
- flex-wrap: wrap;
- padding: 0px 0px;
+    flex-wrap: wrap;
+    padding: 0px 0px;
   }
+
   .childbox1 {
-     width: 100%;
-    }
-    .childbox2 {
-      width: 100%;
-      margin-left: 0px;
-      margin: 20px 0px
-    }
-    .childbox3 {
-      margin-left: 0px;
-      margin-right: 0px;
+    width: 100%;
   }
+
+  .childbox2 {
+    width: 100%;
+    margin-left: 0px;
+    margin: 20px 0px
+  }
+
+  .childbox3 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   /* images opr nichy vali ak column wise */
-  .aboutimgsection{
+  .aboutimgsection {
     flex-wrap: wrap;
   }
+
   .aboutimg1 {
-    padding-left: 0px; 
-     padding-right: 0px;
-    }
-
-
-    /* .................................section 2........................... */
-    /* .......................phly wo add kr rhi hon section ki query */
-    .textcardthree {
-      flex-wrap: wrap;
-    }
-    .centerthreetextcard {
-      padding: 80px 30px;
-    }
-    .centerthreetextcard h2 {
-      font-size: 40px;
-    }
-    .textcardbox1{
-      margin: 0px  0px;
-        margin: 20px 0px;
-    }
-    /* .......................................now start second screen media querry.................. */
-    .centerthreetextcard h2 {
-      font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
+
+  .childbox2 h3 {
+    font-size: 25px;
+  }
+
+  .childbox1 h3 {
+    font-size: 25px;
+  }
+
+  /* .................................section 2........................... */
+  /* .......................phly wo add kr rhi hon section ki query */
+  .textcardthree {
+    flex-wrap: wrap;
+  }
+
+  .centerthreetextcard {
+    padding: 80px 30px;
+  }
+
+  .centerthreetextcard h2 {
+    font-size: 40px;
+  }
+
+  .textcardbox1 {
+    margin: 0px 0px;
+    margin: 20px 0px;
+  }
+
+  /* .......................................now start second screen media querry.................. */
+  .centerthreetextcard h2 {
+    font-size: 30px;
+  }
+
   .centerthreetextcard {
     padding: 70px 50px;
-}
-.textcardthree{
-  width: 90%;
+  }
+
+  .textcardthree {
+    width: 90%;
+  }
+
+
+  .paddingleft {
+    margin: 40px;
+  }
+
+  /* ....................................section3 ... first media querry ..................... */
+  .sectionpadding {
+    padding: 0px 0px;
+    padding: 20px 20px;
+  }
+
+  .sectionflex {
+    flex-wrap: wrap;
+    padding-left: 0px
+  }
+
+  .sectionbox1 {
+    width: 100%;
+  }
+
+  .sectionheading {
+    text-align: center;
+
+  }
+
+  .imgboxcenter {
+    width: 100%;
+    margin-bottom: 40px
+  }
+
+  /* .........................................now start second time media querry for sec screen */
+
+  .sectionheading h2 {
+    font-size: 30px;
+  }
+
+  .mainboxflex {
+    flex-wrap: wrap;
+  }
+
+  .sbox1content {
+    width: 100%;
+  }
+
+  .sbox2content {
+    width: 100%;
+  }
+
+  .imgboxcenter img {
+    width: 100%;
+    height: 470px;
+  }
+
+  /* ..........................quote para......................... */
+  .quotespcearound {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .quotepara {
+    width: 100%;
+  }
+
+  .endbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .quotebtn {
+    margin-top: 20px;
+  }
+
+  /* .....................................................firstbanner .................... */
+  .banneraboutcontent {
+    font-size: 40px;
+  }
 }
 
 
-.paddingleft{
-  margin: 40px;
+.Shoppinggirl {
+  width: 450px;
 }
 
-/* ....................................section3 ... first media querry ..................... */
-.sectionpadding {
-  padding: 0px 0px;
-  padding: 20px 20px;
- }
- .sectionflex{
-  flex-wrap: wrap;
-  padding-left: 0px
- }
- .sectionbox1 {
-  width: 100%;
- }
- .sectionheading{
+.text-center {
   text-align: center;
+}
 
- }
- .imgboxcenter{
-  width: 100%;
-  margin-bottom: 40px
- }
- /* .........................................now start second time media querry for sec screen */
- 
- .sectionheading h2 {
-  font-size: 30px;
-}
-.mainboxflex {
-  flex-wrap: wrap;
-}
-.sbox1content{
-  width: 100%;
-}
 .sbox2content {
-  width: 100%;
+  transition-duration: .5s;
 }
-.imgboxcenter img {
-  width: 100%;
-  height: 470px;
+
+.sbox2content:hover {
+  transform: rotateY(45deg);
+  transition-duration: .5s;
+  box-shadow: -10px 30px 70px 0 #ffb929;
 }
-/* ..........................quote para......................... */
-.quotespcearound {
-  flex-wrap: wrap;
+
+/* ############################################contact us page###################################### */
+widthbannercontactus {
+  width: 100%;
+
+}
+
+.bgbannercontactus {
+  width: 100%;
+  height: 800px;
+  background-image: url(images/Untitled\ design\ \(22\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.contentbanner {
+  /* background-color: #f5f4f3; */
+  padding: 60px 60px;
+  margin-left: 50px;
+  box-shadow: rgba(248, 248, 222, 0.2) 10px 20px 4px;
   text-align: center;
-  padding: 40px 20px;
+  border: 1px solid rgb(135, 132, 132);
+  border-radius: 20px;
 }
-.quotepara{
-  width: 100%;
+
+.contentbanner h2 {
+  font-size: 85px;
+  font-weight: 600;
+
 }
-.endbtn {
+
+.contentbanner p {
+  padding-top: 40px;
+}
+
+.contentbanner .fa {
+  padding: 10px;
+  font-size: 30px;
+  background-color: white;
+  color: #ffb929;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+/* ..........form....... */
+.form {
   width: 100%;
   display: flex;
   justify-content: center;
-  
-}
-.quotebtn{
-  margin-top: 20px;
-}
-/* .....................................................firstbanner .................... */
-.banneraboutcontent {
-  font-size: 40px;
-}
+
 }
 
-
-.Shoppinggirl{
-  width: 450px;
+.forpadding {
+  padding: 50px 40px;
 }
-.text-center{
+
+.formcontent h2 {
   text-align: center;
+  /* font-size: 30px;
+font-weight: 600; */
 }
-.sbox2content{
-  transition-duration: .5s;
-  }
-.sbox2content:hover{
-  transform: rotateY(45deg);
-transition-duration: .5s;
-  box-shadow: -10px 30px 70px 0 #ffb929;
+
+.formcontent p {
+  font-size: 20px;
+  padding-top: 20px;
 }
+
+.formcontent {}
