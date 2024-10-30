@@ -604,7 +604,7 @@ html {
 /* why choose */
 .whychoose {
   width: 100%;
-  padding: 40px 0px;
+  padding: 10px 0px;
 }
 
 .paddingleft {
@@ -1151,7 +1151,7 @@ font-size: 20px;
  /* sec time media querry  */
  .aboutush2pleft{
   padding-bottom: 50px;
-  padding-top: 0px;
+  /* padding-top: 0px; */
  }
   .whychooseparentbox1flex {
  flex-wrap: wrap;
@@ -1178,7 +1178,12 @@ font-size: 20px;
      padding-right: 0px;
     }
 
-
+    .childbox2 h3{
+      font-size: 25px;
+    }
+    .childbox1 h3{
+      font-size: 25px;
+    }
     /* .................................section 2........................... */
     /* .......................phly wo add kr rhi hon section ki query */
     .textcardthree {
@@ -1270,4 +1275,72 @@ font-size: 20px;
 .banneraboutcontent {
   font-size: 40px;
 }
+}
+
+/* ############################################contact us page###################################### */
+widthbannercontactus{
+  width: 100%;
+ 
+}
+.bgbannercontactus{
+ width: 100%;
+  height: 800px;
+  background-image: url(images/Untitled\ design\ \(22\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.contentbanner{
+ /* background-color: #f5f4f3; */
+ padding: 60px 60px;
+ margin-left: 50px;
+ box-shadow: rgba(248, 248, 222, 0.2) 10px 20px 4px;
+ text-align: center;
+ border: 1px solid rgb(135, 132, 132);
+ border-radius: 20px;
+}
+
+.contentbanner h2{
+  font-size: 85px;
+  font-weight: 600;
+
+}
+
+.contentbanner p{
+  padding-top: 40px;
+}
+.contentbanner .fa{
+  padding: 10px;
+  font-size: 30px;
+  background-color: white;
+  color: #ffb929;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+/* ..........form....... */
+.form{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  
+}
+.forpadding{
+  padding:50px 40px;
+}
+.formcontent h2{
+  text-align: center;
+/* font-size: 30px;
+font-weight: 600; */
+} 
+.formcontent p{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.formcontent{
+
 }
