@@ -585,7 +585,7 @@ html {
 }
 
 .bgbannerabout {
-  background-image: url(images/Untitled\ design\ \(16\).png);
+  background-image: url(images/About\ banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -608,7 +608,7 @@ html {
 }
 
 .paddingleft {
-  margin: 40px 50px;
+  margin: 40px 180px;
   background-color: white;
 }
 
@@ -617,7 +617,7 @@ html {
 }
 
 .aboutush2pleft h2 {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -636,6 +636,7 @@ html {
 .whychooseflex {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
 }
@@ -647,7 +648,7 @@ html {
 
 /* 1box  */
 .whychooseparentbox1flex {
-  padding: 50px 10px;
+  padding: 50px 10px 0px 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -659,26 +660,31 @@ html {
   background-color: black;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   color: white;
+  transition-duration: 1s;
+
 }
 .childbox1:hover{
   background-color: rgb(250, 249, 229);
-  color: black;
+  color: black; 
+  transition-duration: 1s;
 }
 .childbox1:hover h3{
-  background-color: rgb(250, 249, 229);
   color: black;
+  transition-duration: 1s;
+
 }
 .childbox1:hover p{
-  background-color: rgb(250, 249, 229);
   color: black;
+  transition-duration: 1s;
+
 }
 .childbox1 h1 {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .childbox1 h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   padding: 20px 0px;
 
@@ -686,8 +692,9 @@ html {
 }
 
 .childbox1 p {
-  font-size: 20px;
+  font-size: 16px;
   color:white;
+  line-height: 1.4;
 }
 .childbox1 :hover {
 color: black;
@@ -701,19 +708,23 @@ color: black;
   padding: 20px 20px;
   background-color:  rgb(250, 249, 229);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition-duration: 1s;
+
 }
 .childbox2:hover p{
-  background-color: black;
+  transition-duration: 1s;
+
   color: white;
 
 }
 .childbox2:hover{
+  transition-duration: 1s;
+
   background-color: black;
   color: white;
 
 }
 .childbox2:hover h3{
-  background-color: black;
   color: white;
 
 }
@@ -725,13 +736,14 @@ color: black;
 }
 
 .childbox2 h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600px;
   padding: 20px 0px;
 }
 
 .childbox2 p {
-  font-size: 20px;
+  line-height: 1.4;
+  font-size: 16px;
   color: black;
 }
 .childbox2 p:hover{
@@ -820,7 +832,7 @@ color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
 }
 
 .textcardthree {
@@ -863,18 +875,26 @@ color: black;
   /* padding: 80px 0px; */
 }
 .bgbannersecond{
-  background-image: url(images/free\ Delivery\ \(1\).png);
+  margin-top: 80px;
+  background-image: url(images/salesbanner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 901px;
+  height: 500px;
   width: 100%;
 }
 
 
 
 
-
+.PURebgbannersecond{
+  background-image: url(images/pure.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
 
 
 
@@ -910,8 +930,8 @@ padding-top: 70px;
 }
 
 .sectionheading h2{
-font-size: 40px;
-font-weight: 500;
+font-size: 50px;
+font-weight: 700;
 }
 .sectionheading p{
 font-size: 20px;
@@ -982,7 +1002,7 @@ padding-bottom: 30px;
     border: 1px solid white;
 }
 .sbox2content h2{
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   padding: 30px 0px;
 }
@@ -1015,11 +1035,7 @@ padding-bottom: 30px;
 text-align: center;
 margin: auto;
 }
-.imgboxcenter img{
-  width: 80%;
-  border-radius: 20px;
-  height: 731px;
-}
+
 /* .........................section quote box///////////////// */
 .bgcolor{
   background-color: black;
@@ -1063,11 +1079,18 @@ font-size: 20px;
 
 .quotebtn button{
   padding: 15px 20px ;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 300;
   background-color: white;
   border-radius: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition-duration: .5s;
+
+
+}
+.quotebtn button:hover{
+  transform: scale(1.1);
+  transition-duration: .5s;
 
 }
 .endbtn{
@@ -1122,10 +1145,7 @@ font-size: 20px;
   width: 100%;
   margin-bottom: 40px
  }
- /* .imgboxcenter img {
-  width: 80%;
-  
-} */
+
 .quoteboxcenter {
   width: 90%;
 }
@@ -1133,9 +1153,33 @@ font-size: 20px;
 .bgbanner {
   height: 306px;
 }
+.paddingleft{
+  margin: 40px;
+}
+.bgbannersecond{
+  height: 230px;
+}
+.PURebgbannersecond{
+  height: 230px;
+  
+}
 }
 /* ............................................second media query */
 @media only screen and (max-width: 700px) and (min-width: 320px){
+  .quotepara h2 {
+    font-size: 23px;
+  }
+  .quotepara p {
+    font-size: 16px;
+    line-height: 1.4;
+
+  }
+  .bgbannersecond{
+    height: 119px;
+  }
+  .PURebgbannersecond{
+    height: 119px; 
+  }
   /* sectionbox1  ya 3step jo ha ya phly vali ha*/
   .whychooseflex{
     flex-wrap: wrap;
@@ -1204,11 +1248,11 @@ font-size: 20px;
 .textcardthree{
   width: 90%;
 }
-.bgbannersecond{
-  height: 467px;
+
+
+.paddingleft{
+  margin: 40px;
 }
-
-
 
 /* ....................................section3 ... first media querry ..................... */
 .sectionpadding {
@@ -1270,4 +1314,19 @@ font-size: 20px;
 .banneraboutcontent {
   font-size: 40px;
 }
+}
+
+
+.Shoppinggirl{
+  width: 450px;
+}
+.text-center{
+  text-align: center;
+}
+.sbox2content{
+  transition-duration: .5s;
+  }
+.sbox2content:hover{
+transition-duration: .5s;
+  box-shadow: -10px 30px 70px 0 #ffb929;
 }
